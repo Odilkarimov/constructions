@@ -7,3 +7,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container-box {
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.bg_construction {
+  background-image: url(../src/assets/constructionbg.jpg);
+
+}
