@@ -1,3 +1,4 @@
+import Count from "./components/count";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Main from "./components/main";
@@ -10,6 +11,9 @@ const App = () => {
       </div>
       <div className="container-box">
         <Main />
+      </div>
+      <div>
+        <Count />
       </div>
       <div>
         <Footer />

@@ -1,7 +1,9 @@
+import CountUp from "react-countup";
 import Gold from "../../assets/gold1.png";
 import Gold2 from "../../assets/gold2.png";
 import Gold3 from "../../assets/gold3.png";
 import Gold4 from "../../assets/gold4.png";
+
 const Main = () => {
   return (
     <div>
@@ -32,7 +34,10 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="max-lg:max-w-[572px] lg:w-[402px] h-[181px] bg-[#2c3442] rounded-lg flex" data-aos="fade-right">
+          <div
+            className="max-lg:max-w-[572px] lg:w-[402px] h-[181px] bg-[#2c3442] rounded-lg flex"
+            data-aos="fade-right"
+          >
             <div className="w-[70%] flex items-center p-[30px] ">
               <h2 className="text-[20px] font-semibold">
                 Hujjatlarni rasmiylashtirish
@@ -49,7 +54,10 @@ const Main = () => {
         </div>
 
         <div className="flex gap-[30px] max-lg:flex-col">
-          <div className="max-lg:max-w-[572px] lg:w-[402px] h-[181px] bg-[#2c3442] rounded-lg flex" data-aos="fade-right">
+          <div
+            className="max-lg:max-w-[572px] lg:w-[402px] h-[181px] bg-[#2c3442] rounded-lg flex"
+            data-aos="fade-right"
+          >
             <div className="w-[70%] p-[30px] flex items-center">
               <h2 className="text-[20px] font-semibold">
                 Ta`mirlash tuzatish xizmati
@@ -63,7 +71,10 @@ const Main = () => {
               />
             </div>
           </div>
-          <div className="max-w-[572px] w-full h-[181px] bg-[#2c3442] rounded-lg flex" data-aos="fade-right">
+          <div
+            className="max-w-[572px] w-full h-[181px] bg-[#2c3442] rounded-lg flex"
+            data-aos="fade-right"
+          >
             <div className="w-[70%] p-[30px] flex items-center">
               <h2 className="text-[20px] font-semibold">
                 TProfessionallar jamoasi
@@ -80,6 +91,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

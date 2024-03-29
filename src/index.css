@@ -16,4 +16,7 @@
 .bg_construction {
   background-image: url(../src/assets/constructionbg.jpg);
 
+}.bg_main_bg {
+  background-image: url(../src/assets/mainbg.jpg);
+
 }
