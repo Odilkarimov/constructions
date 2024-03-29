@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div>
       <div>
-        <h2 className="text-[30px] text-center mt-[50px] mb-[50px]">
+        <h2 className="text-[30px] text-center mt-[50px] mb-[50px] text-black font-semibold">
           Bizning xizmatlar
         </h2>
       </div>
@@ -91,7 +91,6 @@ const Main = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

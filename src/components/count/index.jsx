@@ -1,3 +1,10 @@
+import Home1 from "../../assets/home1.jpg";
+import Home2 from "../../assets/home2.jpg";
+import Home3 from "../../assets/home3.jpg";
+import Home4 from "../../assets/home4.jpg";
+import Home5 from "../../assets/home5.jpg";
+import Home6 from "../../assets/home6.jpg";
+
 import ScrollTrigger from "react-scroll-trigger";
 import { useState } from "react";
 import CountUp from "react-countup";
@@ -59,6 +66,43 @@ const Count = () => {
               </div>
             </div>
           </ScrollTrigger>
+        </div>
+      </div>
+      <div>
+        <h2 className="text-black text-[20px] font-semibold text-center mt-[40px]">
+          Sizning orzuyingizdagi uyingiz
+        </h2>
+        <div className="flex items-center justify-evenly  gap-[20px] flex-wrap mt-[40px]">
+          <img
+            className="w-[555px] h-[350px] rounded-lg"
+            src={Home1}
+            alt="home"
+          />
+          <img
+            className="w-[555px] h-[350px] rounded-lg"
+            src={Home2}
+            alt="home"
+          />
+          <img
+            className="w-[555px] h-[350px] rounded-lg"
+            src={Home3}
+            alt="home"
+          />
+          <img
+            className="w-[555px] h-[350px] rounded-lg"
+            src={Home4}
+            alt="home"
+          />
+          <img
+            className="w-[555px] h-[350px] rounded-lg"
+            src={Home5}
+            alt="home"
+          />
+          <img
+            className="w-[555px] h-[350px] rounded-lg"
+            src={Home6}
+            alt="home"
+          />
         </div>
       </div>
     </div>
