@@ -69,41 +69,26 @@ const Count = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-black text-[20px] font-semibold text-center mt-[40px]">
+        <h2 className="text-black text-[30px] font-semibold text-center mt-[40px]">
           Sizning orzuyingizdagi uyingiz
         </h2>
-        <div className="flex items-center justify-evenly  gap-[20px] flex-wrap mt-[40px]">
-          <img
-            className="w-[555px] h-[350px] rounded-lg"
-            src={Home1}
-            alt="home"
-          />
-          <img
-            className="w-[555px] h-[350px] rounded-lg"
-            src={Home2}
-            alt="home"
-          />
-          <img
-            className="w-[555px] h-[350px] rounded-lg"
-            src={Home3}
-            alt="home"
-          />
-          <img
-            className="w-[555px] h-[350px] rounded-lg"
-            src={Home4}
-            alt="home"
-          />
-          <img
-            className="w-[555px] h-[350px] rounded-lg"
-            src={Home5}
-            alt="home"
-          />
+        <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 mt-[20px]">
+          <img className="w-[555px] h-[350px]" src={Home1} alt="home" />
+          <img className="w-[555px] h-[350px]" src={Home2} alt="home" />
+          <img className="w-[555px] h-[350px]" src={Home3} alt="home" />
+          <img className="w-[555px] h-[350px]" src={Home4} alt="home" />
+          <img className="w-[555px] h-[350px]" src={Home5} alt="home" />
           <img
             className="w-[555px] h-[350px] rounded-lg"
             src={Home6}
             alt="home"
           />
         </div>
+      </div>
+      <div>
+        <h2 className="text-black text-center font-semibold text-[30px] mt-[40px] mb-[20px]">
+          Biznig loyihalarimiz
+        </h2>
       </div>
     </div>
   );

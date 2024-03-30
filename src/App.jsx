@@ -2,6 +2,7 @@ import Count from "./components/count";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Main from "./components/main";
+import Project from "./components/project";
 
 const App = () => {
   return (
@@ -14,6 +15,9 @@ const App = () => {
       </div>
       <div>
         <Count />
+      </div>
+      <div className="container-box">
+        <Project />
       </div>
       <div>
         <Footer />
