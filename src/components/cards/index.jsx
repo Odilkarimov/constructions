@@ -5,7 +5,7 @@ import Mainimg4 from "../../assets/mainimg4.jpg";
 
 const Card = () => {
   return (
-    <div className="bg-[#f7f7f7] mt-[50px] mb-[100px]">
+    <div className="bg-[#f7f7f7] mt-[50px]">
       <div className="container-box h-full mb-[200px]">
         <h2 className="text-black text-[22px] font-semibold mb-[80px]">
           Barcha yangiliklarimiz
@@ -65,7 +65,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="flex max-xl:flex-col gap-[40px]">
+        <div className="flex max-xl:flex-col gap-[40px] mb-[100px]">
           <div
             data-aos="zoom-in"
             className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col"

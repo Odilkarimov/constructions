@@ -40,7 +40,7 @@ const Header = () => {
     </Box>
   );
   return (
-    <div className="bg_construction bg-cover w-full h-[600px] maxw-[1300px]">
+    <div className="bg_construction bg-cover w-full h-[600px]">
       <div className="max-lg:bg-[#2c3442] max-md:mb-[50px]">
         <div className="flex lg:hidden items-center justify-between px-[30px]">
           <div>

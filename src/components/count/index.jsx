@@ -14,16 +14,18 @@ const Count = () => {
 
   return (
     <div>
-      <div className="bg_main_bg bg-cover w-full h-[450px] mt-[100px] px-[10px]">
-        <h2 data-aos="flip-up" className="text-[30px] font-semibold">
-          Bizning kompaniya
-        </h2>
+      <div className="bg_main_bg bg-cover w-full h-[550px] mt-[100px] px-[10px]">
         <div>
           <ScrollTrigger
             onEnter={() => setCounter(true)}
             onExit={() => setCounter(false)}
           >
-            <div className="flex items-center justify-center gap-[50px] mt-[100px] flex-wrap">
+            <div className="">
+              <h2 className="text-center text-[30px] font-semibold py-[50px]">
+                Bizning kompaniyada
+              </h2>
+            </div>
+            <div className="flex items-center justify-center gap-[50px] mt-[50px] flex-wrap">
               <div className="flex items-start justify-start gap-[40px] ml-[-35px]">
                 <div>
                   <h2 className="text-[40px] font-bold">

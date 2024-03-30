@@ -3,6 +3,7 @@ import Count from "./components/count";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Main from "./components/main";
+import Partner from "./components/partners";
 import Project from "./components/project";
 
 const App = () => {
@@ -22,6 +23,9 @@ const App = () => {
       </div>
       <div>
         <Card />
+      </div>
+      <div>
+        <Partner />
       </div>
       <div>
         <Footer />
