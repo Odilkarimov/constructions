@@ -13,7 +13,10 @@ const Card = () => {
       </div>
       <div className="container-box flex flex-col gap-[30px]">
         <div className="flex max-xl:flex-col gap-[40px]">
-          <div className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col">
+          <div
+            data-aos="zoom-in"
+            className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col"
+          >
             <div className="w-[270px] max-md:w-full">
               <img
                 className="w-full object-cover h-[278px] md:rounded-l-2xl"
@@ -37,7 +40,10 @@ const Card = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col">
+          <div
+            data-aos="zoom-in"
+            className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col"
+          >
             <div className="w-[270px] max-md:w-full">
               <img
                 className="w-full object-cover h-[278px] md:rounded-l-2xl"
@@ -60,7 +66,10 @@ const Card = () => {
           </div>
         </div>
         <div className="flex max-xl:flex-col gap-[40px]">
-          <div className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col">
+          <div
+            data-aos="zoom-in"
+            className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col"
+          >
             <div className="w-[270px] max-md:w-full">
               <img
                 className="w-full object-cover h-[278px] md:rounded-l-2xl"
@@ -78,7 +87,10 @@ const Card = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col">
+          <div
+            data-aos="zoom-in"
+            className="flex items-start justify-center gap-[20px] bg-white shadow-2xl rounded-2xl max-md:flex-col"
+          >
             <div className="w-[270px] max-md:w-full">
               <img
                 className="w-full object-cover h-[278px] md:rounded-l-2xl"
