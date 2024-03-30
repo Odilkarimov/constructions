@@ -1,3 +1,4 @@
+import Card from "./components/cards";
 import Count from "./components/count";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -18,6 +19,9 @@ const App = () => {
       </div>
       <div className="container-box">
         <Project />
+      </div>
+      <div>
+        <Card />
       </div>
       <div>
         <Footer />

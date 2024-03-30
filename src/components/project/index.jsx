@@ -8,8 +8,8 @@ import Img6 from "../../assets/img6.webp";
 const Project = () => {
   return (
     <div className="grid grid-cols-2 gap-[40px] max-md:grid-cols-1">
-      <div className="relative text-white shadow-md overflow-hidden group max-w-[550px]">
-        <img className="w-[550px] h-[290px]" src={Img1} alt="home1" />
+      <div className="relative text-white shadow-md overflow-hidden group w-full">
+        <img className="w-full h-[290px] object-cover" src={Img1} alt="home1" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
             <h2 className="text-[30px]">Magic City</h2>
@@ -21,8 +21,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="relative text-white shadow-md overflow-hidden group max-w-[550px]">
-        <img className="w-[550px] h-[290px]" src={Img2} alt="" />
+      <div className="relative text-white shadow-md overflow-hidden group w-full">
+        <img className="w-full h-[290px] object-cover" src={Img2} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
             <h2 className="text-[30px]">Gardens Residence</h2>
@@ -33,8 +33,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="relative text-white shadow-md overflow-hidden group max-w-[550px]">
-        <img className="w-[550px] h-[290px]" src={Img3} alt="" />
+      <div className="relative text-white shadow-md overflow-hidden group w-full">
+        <img className="w-full h-[290px] object-cover" src={Img3} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
             <h2 className="text-[30px]">Fonon</h2>
@@ -44,8 +44,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="relative text-white shadow-md overflow-hidden group max-w-[550px]">
-        <img className="w-[550px] h-[290px]" src={Img4} alt="" />
+      <div className="relative text-white shadow-md overflow-hidden group w-full">
+        <img className="w-full h-[290px] object-cover" src={Img4} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
             <h2 className="text-[30px]">Invento</h2>
@@ -58,8 +58,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="relative text-white shadow-md overflow-hidden group max-w-[550px]">
-        <img className="w-[550px] h-[290px]" src={Img5} alt="" />
+      <div className="relative text-white shadow-md overflow-hidden group w-full">
+        <img className="w-full h-[290px] object-cover" src={Img5} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
             <h2 className="text-[30px]">Presidential School</h2>
@@ -70,8 +70,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="relative text-white shadow-md overflow-hidden group max-w-[550px]">
-        <img className="w-[550px] h-[290px]" src={Img6} alt="" />
+      <div className="relative text-white shadow-md overflow-hidden group w-full">
+        <img className="w-full h-[290px] object-cover" src={Img6} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
             <h2 className="text-[30px]">Boulevard</h2>
