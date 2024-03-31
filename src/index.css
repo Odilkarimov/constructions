@@ -22,3 +22,6 @@
 .bg_main2 {
   background-image: url(../src/assets/bgconst.webp);
 }
+.bg_img {
+  background-image: url(../src/assets/bgimg.png);
+}

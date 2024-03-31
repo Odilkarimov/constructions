@@ -41,6 +41,36 @@ const Partner = () => {
           </button>
         </div>
       </div>
+      <div className="bg-[#202733] h-[920px] flex items-center justify-center">
+        <div className="max-w-[1000px] w-full max-h-[600px] h-full bg-white bg_img bg-cover rounded-3xl px-[40px] py-[60px] max-md:py-[30px]">
+          <div>
+            <h2 className="text-[40px] font-semibold max-md:text-[30px]">
+              Savol, taklif va <br /> murojaatlar bormi?
+            </h2>
+          </div>
+          <div className="flex flex-col gap-[30px] mt-[50px]">
+            <input
+              className="max-w-[480px] h-[45px] rounded-xl text-black px-[10px] py-[15px]"
+              type="text"
+              placeholder="Ismingiz"
+            />
+            <input
+              className="max-w-[480px] h-[45px] rounded-xl text-black px-[10px] py-[15px]"
+              type="number"
+              placeholder="Telefon raqamingiz"
+            />
+            <textarea
+              className="max-w-[480px] h-[100px] rounded-xl resize-none border-none outline-none text-black px-[10px] py-[10px]"
+              name="tel"
+              id="tel"
+              placeholder="Sizning xabaringiz..."
+            ></textarea>
+            <button className="max-w-[210px] border border-white rounded-3xl h-[45px] bg-white/20 hover:bg-white/0">
+              <h2 className="text-[18px] font-semibold">Yuborish</h2>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
