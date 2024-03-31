@@ -24,6 +24,23 @@ const Partner = () => {
         <img src={Himg7} alt="" />
         <img src={Himg8} alt="" />
       </div>
+      <div className="bg_main2 bg-cover mt-[30px] h-[600px] py-[50px]">
+        <div className="container-box flex flex-col items-start justify-center gap-[70px] mt-[200px] px-[50px]">
+          <h2 className="text-[40px] max-md:text-[25px]">
+            ATAEV BAHODIR BUILD
+          </h2>
+          <p className="max-w-[350px] text-[16px]">
+            Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz.
+            Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni
+            quryapmiz. Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar va
+            infratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologik
+            jihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi.
+          </p>
+          <button className="border border-white rounded-2xl px-[15px] py-[3px] hover:text-black hover:bg-white">
+            <h2 className="text-[18px] font-semibold">batafsil bilish</h2>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

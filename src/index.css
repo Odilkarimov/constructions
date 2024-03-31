@@ -18,5 +18,7 @@
 
 }.bg_main_bg {
   background-image: url(../src/assets/mainbg.jpg);
-
+}
+.bg_main2 {
+  background-image: url(../src/assets/bgconst.webp);
 }
