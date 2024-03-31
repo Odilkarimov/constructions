@@ -6,12 +6,12 @@ import Mainimg4 from "../../assets/mainimg4.jpg";
 const Card = () => {
   return (
     <div className="bg-[#f7f7f7] mt-[50px]">
-      <div className="container-box h-full mb-[200px]">
+      <div id="bizhaqimizda" className="container-box h-full mb-[200px]">
         <h2 className="text-black text-[22px] font-semibold mb-[80px]">
           Barcha yangiliklarimiz
         </h2>
       </div>
-      <div className="container-box flex flex-col gap-[30px]">
+      <div id="yangiliklar" className="container-box flex flex-col gap-[30px]">
         <div className="flex max-xl:flex-col gap-[40px]">
           <div
             data-aos="zoom-in"

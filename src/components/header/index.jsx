@@ -77,35 +77,37 @@ const Header = () => {
         </div>
 
         <ul className="flex items-center justify-center gap-[50px] max-lg:hidden">
-          <li className="text-white">
-            <a href="">Ma'lumotlar</a>
+          <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
+            <a href="#malumotlar">Ma'lumotlar</a>
           </li>
-          <li className="text-white">
-            <a href="">Biz haqimizda</a>
+          <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
+            <a href="#bizhaqimizda">Biz haqimizda</a>
           </li>
-          <li className="text-white">
-            <a href="">Korxonalar</a>
+          <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
+            <a href="#korhonalar">Korxonalar</a>
           </li>
           <li>
-            <div className="text-white">
+            <div className="text-white flex gap-[10px] border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500  ">
               <img src={Icon} width={70} alt="" />
-              <h2>Odil Karimov</h2>
+              <h2>
+                Ataev <br /> Bahodir <br /> Build
+              </h2>
             </div>
           </li>
-          <li className="text-white">
-            <a href="">Afzalliklarimiz</a>
+          <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
+            <a href="#avzaliklarimiz">Afzalliklarimiz</a>
           </li>
-          <li className="text-white">
-            <a href="">Yangiliklar</a>
+          <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
+            <a href="#yangiliklar">Yangiliklar</a>
           </li>
-          <li className="text-white">
-            <a href="">Aloqa</a>
+          <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
+            <a href="#aloqa">Aloqa</a>
           </li>
         </ul>
       </div>
       <div className="container-box">
         <h2 className="text-[85px] font-bold max-md:text-[40px] text-black max-md:mb-[20px]">
-          ODIL <br /> KARIMOV BUILD
+          ATAEV <br /> BAHODIR BUILD
         </h2>
         <p className="text-[30px] font-semibold mb-[30px] text-black max-md:text-[20px]">
           Biz qilgan ishlarning hammasi a'lo

@@ -41,7 +41,10 @@ const Partner = () => {
           </button>
         </div>
       </div>
-      <div className="bg-[#202733] h-[920px] flex items-center justify-center">
+      <div
+        id="aloqa"
+        className="bg-[#202733] h-[920px] flex items-center justify-center"
+      >
         <div className="max-w-[1000px] w-full max-h-[600px] h-full bg-white bg_img bg-cover rounded-3xl px-[40px] py-[60px] max-md:py-[30px]">
           <div>
             <h2 className="text-[40px] font-semibold max-md:text-[30px]">

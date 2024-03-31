@@ -13,7 +13,7 @@ const Main = () => {
         </h2>
       </div>
       <div className="flex items-center justify-around flex-col gap-[30px] px]">
-        <div className="flex gap-[30px] max-lg:flex-col">
+        <div id="korhonalar" className="flex gap-[30px] max-lg:flex-col">
           <div
             className="max-w-[572px] w-full h-[181px] bg-[#2c3442] rounded-lg flex"
             data-aos="fade-right"
