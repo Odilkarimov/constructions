@@ -70,10 +70,11 @@ const Count = () => {
           </ScrollTrigger>
         </div>
       </div>
-      <div>
+      <div id="bizningl">
         <h2 className="text-black text-[30px] font-semibold text-center mt-[40px]">
           Sizning orzuyingizdagi uyingiz
         </h2>
+
         <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 mt-[20px]">
           <img className="w-[555px] h-[350px]" src={Home1} alt="home" />
           <img className="w-[555px] h-[350px]" src={Home2} alt="home" />

@@ -14,7 +14,9 @@ const Partner = () => {
           Hamkorlar bilan birga ishlash
         </h2>
       </div>
-      <div className="w-full grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2">
+      <div
+        className="w-full grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2"
+      >
         <img src={Himg1} alt="" />
         <img src={Himg2} alt="" />
         <img src={Himg3} alt="" />
