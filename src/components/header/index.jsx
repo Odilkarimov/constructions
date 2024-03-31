@@ -1,4 +1,5 @@
 import Icon from "../../assets/icon.png";
+import Close from "../../assets/closIcon.jpg";
 import Menu from "../../assets/menu.png";
 import Phone from "../../assets/phone.png";
 import * as React from "react";
@@ -35,8 +36,33 @@ const Header = () => {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>salom</List>
-      <Divider />
+      <List>
+        <div className="px-[20px] py-[10px]">
+          <div className="flex items-center justify-end">
+            <img width={40} src={Close} alt="close" />
+          </div>
+          <ul className="flex items-start flex-col justify-center gap-[10px] ">
+            <li className="font-semibold">
+              <a href="#malumotlar">Ma'lumotlar</a>
+            </li>
+            <li className="font-semibold">
+              <a href="#bizhaqimizda">Biz haqimizda</a>
+            </li>
+            <li className="font-semibold">
+              <a href="#korhonalar">Korxonalar</a>
+            </li>
+            <li className="font-semibold">
+              <a href="#avzaliklarimiz">Afzalliklarimiz</a>
+            </li>
+            <li className="font-semibold">
+              <a href="#yangiliklar">Yangiliklar</a>
+            </li>
+            <li className="font-semibold">
+              <a href="#aloqa">Aloqa</a>
+            </li>
+          </ul>
+        </div>
+      </List>
     </Box>
   );
   return (
