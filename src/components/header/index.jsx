@@ -39,7 +39,12 @@ const Header = () => {
       <List>
         <div className="px-[20px] py-[10px]">
           <div className="flex items-center justify-end">
-            <img width={40} src={Close} alt="close" />
+            <img
+              width={40}
+              src={Close}
+              alt="close"
+              className="cursor-pointer"
+            />
           </div>
           <ul className="flex items-start flex-col justify-center gap-[10px] ">
             <li className="font-semibold">
@@ -132,14 +137,14 @@ const Header = () => {
         </ul>
       </div>
       <div className="container-box">
-        <h2 className="text-[85px] font-bold max-md:text-[40px] text-black max-md:mb-[20px]">
+        <h2 className="text-[85px] font-bold max-md:text-[40px]  max-md:mb-[20px] mt-[100px]">
           ATAEV <br /> BAHODIR BUILD
         </h2>
-        <p className="text-[30px] font-semibold mb-[30px] text-black max-md:text-[20px]">
+        <p className="text-[30px] font-semibold mb-[30px]  max-md:text-[20px]">
           Biz qilgan ishlarning hammasi a'lo
         </p>
         <div className="flex gap-[20px]">
-          <button className="text-black border-[2px] border-black rounded-2xl w-[134px] h-[44px] font-semibold hover:bg-[#435482] hover:text-white">
+          <button className=" border-[2px] border-white rounded-2xl w-[134px] h-[44px] font-semibold hover:bg-[#435482] hover:text-white">
             Bog'lanish
           </button>
         </div>
