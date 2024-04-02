@@ -73,5 +73,15 @@ const translationsUz = {
     text8: "Sizning xabaringiz...",
     text9: "Yuborish",
   },
+  footer: {
+    text1: "Ataev Bahodir Build",
+    text2: "Ijtimoiy tarmoqlarimizga obuna bo'ling",
+    text3: "Kompaniyamiz",
+    text4: "Korhonalar",
+    text5: "Biz haqimizda",
+    text6: "Yangiliklar",
+    text7: "Bizning Loyihalarimiz",
+    text8: "Aloqa",
+  },
 };
 export default translationsUz;

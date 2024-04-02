@@ -73,5 +73,15 @@ const translationsRu = {
     text8: "Ваше сообщение...",
     text9: "Отправка",
   },
+  footer: {
+    text1: "Строй Атаев Бахадир",
+    text2: "Подпишитесь на наши социальные сети",
+    text3: "Наша компания",
+    text4: "Предприятия",
+    text5: "О нас",
+    text6: "Новости",
+    text7: "Наши проекты",
+    text8: "Общение",
+  },
 };
 export default translationsRu;
