@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Img1 from "../../assets/img1.webp";
 import Img2 from "../../assets/img2.webp";
 import Img3 from "../../assets/img3.webp";
@@ -6,18 +7,16 @@ import Img5 from "../../assets/img5.webp";
 import Img6 from "../../assets/img6.webp";
 
 const Project = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="grid grid-cols-2 gap-[40px] max-md:grid-cols-1">
       <div className="relative text-white shadow-md overflow-hidden group w-full">
         <img className="w-full h-[290px] object-cover" src={Img1} alt="home1" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
-            <h2 className="text-[30px]">Magic City</h2>
-            <p className="text-[18px]">
-              Bu keng ko'lamli ijtimoiy ahamiyatga ega loyiha. Toshkentdagi
-              madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan
-              biridir.
-            </p>
+            <h2 className="text-[30px]">{t("project.text1")}</h2>
+            <p className="text-[18px]">{t("project.text2")}</p>
           </div>
         </div>
       </div>
@@ -25,11 +24,8 @@ const Project = () => {
         <img className="w-full h-[290px] object-cover" src={Img2} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
-            <h2 className="text-[30px]">Gardens Residence</h2>
-            <p className="text-[18px]">
-              O'zbekiston aholisiga qulaylik yaratish maqsadida yaratilgan ko'p
-              funksiyali turar-joy majmuasi.
-            </p>
+            <h2 className="text-[30px]">{t("project.text3")}</h2>
+            <p className="text-[18px]">{t("project.text4")}</p>
           </div>
         </div>
       </div>
@@ -37,10 +33,8 @@ const Project = () => {
         <img className="w-full h-[290px] object-cover" src={Img3} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
-            <h2 className="text-[30px]">Fonon</h2>
-            <p className="text-[18px]">
-              Poytaxt markazidagi muhtasham turar-joy massivi.
-            </p>
+            <h2 className="text-[30px]">{t("project.text5")}</h2>
+            <p className="text-[18px]">{t("project.text6")}</p>
           </div>
         </div>
       </div>
@@ -48,13 +42,8 @@ const Project = () => {
         <img className="w-full h-[290px] object-cover" src={Img4} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
-            <h2 className="text-[30px]">Invento</h2>
-            <p className="text-[18px]">
-              Fonon - O'zbekistonda 2020 yilda italyan zavodlari negizida
-              qurilgan zargarlik buyumlari ishlab chiqarish zavodi. Fonon -
-              Markaziy Osiyoda Yevropa va Sharq uslubida qimmatbaho metallardan
-              zargarlik buyumlari ishlab chiqaradigan yagona yirik korxona
-            </p>
+            <h2 className="text-[30px]">{t("project.text7")}</h2>
+            <p className="text-[18px]">{t("project.text8")}</p>
           </div>
         </div>
       </div>
@@ -62,11 +51,8 @@ const Project = () => {
         <img className="w-full h-[290px] object-cover" src={Img5} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
-            <h2 className="text-[30px]">Presidential School</h2>
-            <p className="text-[18px]">
-              Tashkent City xalqaro biznes markazida joylashgan xalqaro bolalar
-              bog'chasi va maktabi.
-            </p>
+            <h2 className="text-[30px]">{t("project.text9")}</h2>
+            <p className="text-[18px]">{t("project.text10")}</p>
           </div>
         </div>
       </div>
@@ -74,10 +60,8 @@ const Project = () => {
         <img className="w-full h-[290px] object-cover" src={Img6} alt="" />
         <div className="absolute left-0 top-[100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 bg-black/30 group-hover:backdrop-blur-0 w-full h-full duration-500">
           <div className="gap-[20px] flex flex-col">
-            <h2 className="text-[30px]">Boulevard</h2>
-            <p className="text-[18px]">
-              Bu xalqaro darajada bilim beradigan ta'lim muassasasi
-            </p>
+            <h2 className="text-[30px]">{t("project.text11")}</h2>
+            <p className="text-[18px]">{t("project.text12")}</p>
           </div>
         </div>
       </div>

@@ -26,5 +26,23 @@ const translationsUz = {
     text6: "Sizning orzuyingizdagi uyingiz",
     text7: "Bizning loyihalarimiz",
   },
+  project: {
+    text1: "Magic City",
+    text2:
+      " Bu keng ko'lamli ijtimoiy ahamiyatga ega loyiha. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir.",
+    text3: "Gardens Residence",
+    text4:
+      "O'zbekiston aholisiga qulaylik yaratish maqsadida yaratilgan ko'p funksiyali turar-joy majmuasi.",
+    text5: "Fonon",
+    text6: "Poytaxt markazidagi muhtasham turar-joy massivi.",
+    text7: "Invento",
+    text8:
+      "Fnon - O'zbekistonda 2020 yilda italyan zavodlari negizida qurilgan zargarlik buyumlari ishlab chiqarish zavodi. Fonon - Markaziy Osiyoda Yevropa va Sharq uslubida qimmatbaho metallardan zargarlik buyumlari ishlab chiqaradigan yagona yirik korxona",
+    text9: "Presidential School",
+    text10:
+      "Tashkent City xalqaro biznes markazida joylashgan xalqaro bolalar bog'chasi va maktabi.",
+    text11: "Boulevard",
+    text12: "Bu xalqaro darajada bilim beradigan ta'lim muassasasi",
+  },
 };
 export default translationsUz;
