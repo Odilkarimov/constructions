@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <div className="text-black mt-[100px] mb-[100px]">
+    <div className="text-black mt-[100px] mb-[100px] max-md:mt-[30px] max-md:mb-[30px]">
       <div className="container-box grid grid-cols-3 gap-[250px] max-md:grid-cols-2 max-lg:gap-[150px] max-md:gap-[50px]">
         <div className="flex flex-col gap-[20px]">
           <div className="text-white flex gap-[10px]">

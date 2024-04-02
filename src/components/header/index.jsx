@@ -55,24 +55,40 @@ const Header = () => {
           </div>
           <ul className="flex items-start flex-col justify-center gap-[10px] ">
             <li className="font-semibold">
-              <a href="#malumotlar">Ma'lumotlar</a>
+              <a href="#malumotlar">{t("navbar.navtext1")}</a>
             </li>
             <li className="font-semibold">
-              <a href="#bizhaqimizda">Biz haqimizda</a>
+              <a href="#bizhaqimizda">{t("navbar.navtext2")}</a>
             </li>
             <li className="font-semibold">
-              <a href="#korhonalar">Korxonalar</a>
+              <a href="#korhonalar">{t("navbar.navtext3")}</a>
             </li>
             <li className="font-semibold">
-              <a href="#avzaliklarimiz">Afzalliklarimiz</a>
+              <a href="#avzaliklarimiz">{t("navbar.navtext4")}</a>
             </li>
             <li className="font-semibold">
-              <a href="#yangiliklar">Yangiliklar</a>
+              <a href="#yangiliklar">{t("navbar.navtext5")}</a>
             </li>
             <li className="font-semibold">
-              <a href="#aloqa">Aloqa</a>
+              <a href="#aloqa">{t("navbar.navtex6")}</a>
             </li>
           </ul>
+          <div className="flex items-center gap-[10px] mt-[30px]">
+            <button
+              className="flex items-center justify-center gap-[10px] bg-[#2c3442] w-[100px] rounded-lg p-[5px]"
+              onClick={(e) => changelang(e.target.value)}
+              value="uz"
+            >
+              <h2 className="text-white text-[20px]">uzb</h2>
+            </button>
+            <button
+              className="flex items-center justify-center gap-[10px] bg-[#2c3442] w-[100px] rounded-lg p-[5px]"
+              onClick={(e) => changelang(e.target.value)}
+              value="ru"
+            >
+              <h2 className="text-white text-[20px]">rus</h2>
+            </button>
+          </div>
         </div>
       </List>
     </Box>
@@ -151,8 +167,8 @@ const Header = () => {
         </ul>
       </div>
       <div className="container-box">
-        <h2 className="text-[85px] font-bold max-md:text-[40px]  max-md:mb-[20px] mt-[100px]">
-          ATAEV <br /> BAHODIR BUILD
+        <h2 className="text-[85px] font-bold max-md:text-[40px]  max-md:mb-[20px] mt-[100px] max-w-[600px]">
+          {t("footer.text1")}
         </h2>
         <p className="text-[30px] font-semibold mb-[30px]  max-md:text-[20px]">
           {t("navbar.navtext7")}
