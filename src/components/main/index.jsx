@@ -3,13 +3,15 @@ import Gold from "../../assets/gold1.png";
 import Gold2 from "../../assets/gold2.png";
 import Gold3 from "../../assets/gold3.png";
 import Gold4 from "../../assets/gold4.png";
+import { useTranslation } from "react-i18next";
 
 const Main = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <div>
         <h2 className="text-[30px] text-center mt-[50px] mb-[50px] text-black font-semibold">
-          Bizning xizmatlar
+          {t("main.text1")}
         </h2>
       </div>
       <div className="flex items-center justify-around flex-col gap-[30px] px]">
@@ -21,8 +23,7 @@ const Main = () => {
             <div className="flex">
               <div className="w-[70%] p-[30px] flex items-center">
                 <h2 className="text-[20px] font-semibold">
-                  Siz kompaniyamiz mutaxassislaridan bepul ma'lumot olishingiz
-                  mumkin
+                {t("main.text2")}
                 </h2>
               </div>
               <div className="w-[30%] flex items-end">
@@ -40,7 +41,7 @@ const Main = () => {
           >
             <div className="w-[70%] flex items-center p-[30px] ">
               <h2 className="text-[20px] font-semibold">
-                Hujjatlarni rasmiylashtirish
+              {t("main.text3")}
               </h2>
             </div>
             <div className="w-[30%] flex items-end">
@@ -60,7 +61,7 @@ const Main = () => {
           >
             <div className="w-[70%] p-[30px] flex items-center">
               <h2 className="text-[20px] font-semibold">
-                Ta`mirlash tuzatish xizmati
+              {t("main.text4")}
               </h2>
             </div>
             <div className="w-[30%] flex items-end">
@@ -77,7 +78,7 @@ const Main = () => {
           >
             <div className="w-[70%] p-[30px] flex items-center">
               <h2 className="text-[20px] font-semibold">
-                TProfessionallar jamoasi
+              {t("main.text5")}
               </h2>
             </div>
             <div className="w-[30%] flex items-end">

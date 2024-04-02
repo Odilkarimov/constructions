@@ -7,9 +7,16 @@ import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import Button from "@mui/material/Button";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
+import i18n, { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const changelang = (lang) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("lang", lang);
+  };
+  const { t } = useTranslation();
+
   const [state, setState] = React.useState({
     top: false,
     left: false,
@@ -109,13 +116,13 @@ const Header = () => {
 
         <ul className="flex items-center justify-center gap-[50px] max-lg:hidden">
           <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
-            <a href="#malumotlar">Ma'lumotlar</a>
+            <a href="#malumotlar">{t("navbar.navtext1")}</a>
           </li>
           <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
-            <a href="#bizhaqimizda">Biz haqimizda</a>
+            <a href="#bizhaqimizda">{t("navbar.navtext2")}</a>
           </li>
           <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
-            <a href="#korhonalar">Korxonalar</a>
+            <a href="#korhonalar">{t("navbar.navtext3")}</a>
           </li>
           <li>
             <div className="text-white flex gap-[10px] border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500  ">
@@ -126,14 +133,21 @@ const Header = () => {
             </div>
           </li>
           <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
-            <a href="#avzaliklarimiz">Afzalliklarimiz</a>
+            <a href="#avzaliklarimiz">{t("navbar.navtext4")}</a>
           </li>
           <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
-            <a href="#yangiliklar">Yangiliklar</a>
+            <a href="#yangiliklar">{t("navbar.navtext5")}</a>
           </li>
           <li className="text-white border-b-[2px] border-b-transparent border-t-[3px] border-t-transparent hover:border-b-[#FFFF] duration-500">
-            <a href="#aloqa">Aloqa</a>
+            <a href="#aloqa">{t("navbar.navtext6")}</a>
           </li>
+          <select
+            className="max-sm:hidden rounded-2xl text-black"
+            onChange={(e) => changelang(e.target.value)}
+          >
+            <option value="uz">uzb</option>
+            <option value="ru">rus</option>
+          </select>
         </ul>
       </div>
       <div className="container-box">
@@ -141,7 +155,7 @@ const Header = () => {
           ATAEV <br /> BAHODIR BUILD
         </h2>
         <p className="text-[30px] font-semibold mb-[30px]  max-md:text-[20px]">
-          Biz qilgan ishlarning hammasi a'lo
+          {t("navbar.navtext7")}
         </p>
         <div className="flex gap-[20px]">
           <button className=" border-[2px] border-white rounded-2xl w-[134px] h-[44px] font-semibold hover:bg-[#435482] hover:text-white">

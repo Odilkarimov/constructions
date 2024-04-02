@@ -4,12 +4,14 @@ import Home3 from "../../assets/home3.jpg";
 import Home4 from "../../assets/home4.jpg";
 import Home5 from "../../assets/home5.jpg";
 import Home6 from "../../assets/home6.jpg";
-
 import ScrollTrigger from "react-scroll-trigger";
 import { useState } from "react";
 import CountUp from "react-countup";
+import { useTranslation } from "react-i18next";
 
 const Count = () => {
+  const { t } = useTranslation();
+
   const [counter, setCounter] = useState(false);
 
   return (
@@ -22,7 +24,7 @@ const Count = () => {
           >
             <div className="">
               <h2 className="text-center text-[30px] font-semibold py-[50px]">
-                Bizning kompaniyada
+                {t("count.text1")}
               </h2>
             </div>
             <div className="flex items-center justify-center gap-[50px] mt-[50px] flex-wrap">
@@ -34,7 +36,7 @@ const Count = () => {
                       <CountUp start={0} end={140} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">Xodimlar soni</p>
+                  <p className="text-[21px]">{t("count.text2")}</p>
                 </div>
                 <div className="">
                   <h2 className="text-[40px] font-bold">
@@ -43,7 +45,7 @@ const Count = () => {
                       <CountUp start={0} end={64} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">Ob'ektlar</p>
+                  <p className="text-[21px]">{t("count.text3")}</p>
                 </div>
               </div>
               <div className="flex items-center justify-center gap-[30px]">
@@ -54,7 +56,7 @@ const Count = () => {
                       <CountUp start={0} end={260} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">Maxsus jihozlar</p>
+                  <p className="text-[21px]">{t("count.text4")}</p>
                 </div>
                 <div>
                   <h2 className="text-[40px] font-bold">
@@ -63,7 +65,7 @@ const Count = () => {
                       <CountUp start={0} end={4} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">bozorda 14 yil</p>
+                  <p className="text-[21px]">{t("count.text5")}</p>
                 </div>
               </div>
             </div>
@@ -72,7 +74,7 @@ const Count = () => {
       </div>
       <div id="bizningl">
         <h2 className="text-black text-[30px] font-semibold text-center mt-[40px]">
-          Sizning orzuyingizdagi uyingiz
+          {t("count.text6")}
         </h2>
 
         <div className="grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 mt-[20px]">
@@ -90,7 +92,7 @@ const Count = () => {
       </div>
       <div>
         <h2 className="text-black text-center font-semibold text-[30px] mt-[40px] mb-[20px]">
-          Biznig loyihalarimiz
+          {t("count.text7")}
         </h2>
       </div>
     </div>
