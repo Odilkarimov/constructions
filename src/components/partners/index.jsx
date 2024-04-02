@@ -7,8 +7,10 @@ import Himg5 from "../../assets/himg5.jpg";
 import Himg6 from "../../assets/himg6.jpg";
 import Himg7 from "../../assets/himg7.jpg";
 import Himg8 from "../../assets/himg8.jpg";
+import { useTranslation } from "react-i18next";
 
 const Partner = () => {
+  const { t } = useTranslation();
   const token = "6985896624:AAHe1qZaRDPih-QpWSSrwi8ZDbBEH_QcYgQ";
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
   const id = -1002069227579;
@@ -35,7 +37,7 @@ const Partner = () => {
     <div>
       <div className="mt-[25px] mb-[25px]">
         <h2 className="text-black text-center font-semibold text-[25px]">
-          Hamkorlar bilan birga ishlash
+          {t("partnes.text1")}
         </h2>
       </div>
       <div className="w-full grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2">
@@ -51,17 +53,11 @@ const Partner = () => {
       <div className="bg_main2 bg-cover mt-[30px] h-[600px] py-[50px]">
         <div className="container-box flex flex-col items-start max-lg:items-center justify-center gap-[70px] mt-[200px] px-[50px]">
           <h2 className="text-[40px] max-md:text-[25px]">
-            ATAEV BAHODIR BUILD
+            {t("partnes.text2")}
           </h2>
-          <p className="max-w-[350px] text-[16px]">
-            Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz.
-            Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni
-            quryapmiz. Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar va
-            infratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologik
-            jihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi.
-          </p>
+          <p className="max-w-[350px] text-[16px]">{t("partnes.text3")}</p>
           <button className="border border-white rounded-2xl px-[15px] py-[3px] hover:text-black hover:bg-white">
-            <h2 className="text-[18px] font-semibold">batafsil bilish</h2>
+            <h2 className="text-[18px] font-semibold">{t("partnes.text4")}</h2>
           </button>
         </div>
       </div>
@@ -72,7 +68,7 @@ const Partner = () => {
         <div className="max-w-[1000px] w-full max-h-[600px] h-full bg-white bg_img bg-cover rounded-3xl px-[40px] py-[60px] max-md:py-[30px]">
           <div>
             <h2 className="text-[40px] font-semibold max-md:text-[30px]">
-              Savol, taklif va <br /> murojaatlar bormi?
+              {t("partnes.text5")}
             </h2>
           </div>
           <div>
@@ -84,23 +80,25 @@ const Partner = () => {
               <input
                 className="max-w-[480px] h-[45px] rounded-xl text-black px-[10px] py-[15px]"
                 type="text"
-                placeholder="Ismingiz"
+                placeholder={t("partnes.text6")}
                 id="name"
               />
               <input
                 className="max-w-[480px] h-[45px] rounded-xl text-black px-[10px] py-[15px]"
                 type="number"
-                placeholder="Telefon raqamingiz"
+                placeholder={t("partnes.text7")}
                 id="number"
               />
               <textarea
                 className="max-w-[480px] h-[100px] rounded-xl resize-none border-none outline-none text-black px-[10px] py-[10px]"
                 name="tel"
                 id="tel"
-                placeholder="Sizning xabaringiz..."
+                placeholder={t("partnes.text8")}
               ></textarea>
               <button className="max-w-[210px] ml-[130px] max-md:ml-0 border border-white rounded-3xl h-[45px] bg-white/20 hover:bg-white/0">
-                <h2 className="text-[18px] font-semibold">Yuborish</h2>
+                <h2 className="text-[18px] font-semibold">
+                  {t("partnes.text9")}
+                </h2>
               </button>
             </form>
           </div>
