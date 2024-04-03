@@ -70,23 +70,23 @@ const Header = () => {
               <a href="#yangiliklar">{t("navbar.navtext5")}</a>
             </li>
             <li className="font-semibold">
-              <a href="#aloqa">{t("navbar.navtex6")}</a>
+              <a href="#aloqa">{t("navbar.navtext6")}</a>
             </li>
           </ul>
           <div className="flex items-center gap-[10px] mt-[30px]">
             <button
-              className="flex items-center justify-center gap-[10px] bg-[#2c3442] w-[100px] rounded-lg p-[5px]"
+              className="flex items-center justify-center gap-[10px] bg-[#2c3442] w-[100px] rounded-lg p-[5px] text-white text-[18px]"
               onClick={(e) => changelang(e.target.value)}
               value="uz"
             >
-              <h2 className="text-white text-[20px]">uzb</h2>
+              uzb
             </button>
             <button
-              className="flex items-center justify-center gap-[10px] bg-[#2c3442] w-[100px] rounded-lg p-[5px]"
+              className="flex items-center justify-center gap-[10px] bg-[#2c3442] w-[100px] rounded-lg p-[5px] text-white text-[18px]"
               onClick={(e) => changelang(e.target.value)}
               value="ru"
             >
-              <h2 className="text-white text-[20px]">rus</h2>
+              rus
             </button>
           </div>
         </div>
