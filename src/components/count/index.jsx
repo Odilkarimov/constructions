@@ -28,7 +28,7 @@ const Count = () => {
               </h2>
             </div>
             <div className="flex items-center justify-center gap-[50px] mt-[50px] flex-wrap">
-              <div className="flex items-start justify-start gap-[40px] ml-[-35px]">
+              <div className="flex items-start justify-start gap-[30px] ml-[-35px]">
                 <div>
                   <h2 className="text-[40px] font-bold">
                     +
@@ -36,7 +36,9 @@ const Count = () => {
                       <CountUp start={0} end={140} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">{t("count.text2")}</p>
+                  <p className="text-[21px] max-md:text-[15px]">
+                    {t("count.text2")}
+                  </p>
                 </div>
                 <div className="">
                   <h2 className="text-[40px] font-bold">
@@ -45,7 +47,9 @@ const Count = () => {
                       <CountUp start={0} end={64} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">{t("count.text3")}</p>
+                  <p className="text-[21px] max-md:text-[15px]">
+                    {t("count.text3")}
+                  </p>
                 </div>
               </div>
               <div className="flex items-center justify-center gap-[30px]">
@@ -56,7 +60,9 @@ const Count = () => {
                       <CountUp start={0} end={260} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">{t("count.text4")}</p>
+                  <p className="text-[21px] max-md:text-[15px]">
+                    {t("count.text4")}
+                  </p>
                 </div>
                 <div>
                   <h2 className="text-[40px] font-bold">
@@ -65,7 +71,9 @@ const Count = () => {
                       <CountUp start={0} end={4} duration={2.75}></CountUp>
                     )}
                   </h2>
-                  <p className="text-[21px]">{t("count.text5")}</p>
+                  <p className="text-[21px] max-md:text-[15px]">
+                    {t("count.text5")}
+                  </p>
                 </div>
               </div>
             </div>
