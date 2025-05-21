@@ -11,9 +11,9 @@ import { useTranslation } from "react-i18next";
 
 const Partner = () => {
   const { t } = useTranslation();
-  const token = "6985896624:AAHe1qZaRDPih-QpWSSrwi8ZDbBEH_QcYgQ";
+  const token = "6034805053:AAFJWcVqYY_1ARc2OA0CxgLjeHJYeDL5kx0";
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
-  const id = -1002069227579;
+  const id = 1271675555;
 
   const OnFinish = (e) => {
     e.preventDefault();
@@ -21,7 +21,6 @@ const Partner = () => {
     const number = document.getElementById("number").value;
     const tel = document.getElementById("tel").value;
     const message = `Ismi: ${name} Tel: ${number} Xabari: ${tel}`;
-    console.log(name);
     axios({
       method: "POST",
       url: url,
